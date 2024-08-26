@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Qwitcher Grypen';
+    src: url(fonts/Qwitcher_Grypen/QwitcherGrypen-Bold.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-style {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+.dropdown-menu{
+    margin-top: 0;
+}
+
+.user-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #2c3e50; /* This blends the image into the background */
+}
+
+.graph-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.action-buttons .btn {
+    margin-right: 10px;
+}
+
+.recent-activities .list-group-item {
+    border: 1px solid #ecf0f1;
+}
+
+.view-bill:hover {
+    text-decoration: underline;
+}
